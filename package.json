@@ -1,0 +1,24 @@
+{
+  "name": "thesupermacy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:presentation": "mdx-deck presentation/deck.mdx",
+    "build:presentation": "mdx-deck build presentation/deck.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSupermacy/theSupermacy.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSupermacy/theSupermacy.github.io/issues"
+  },
+  "homepage": "https://github.com/theSupermacy/theSupermacy.github.io#readme",
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}
